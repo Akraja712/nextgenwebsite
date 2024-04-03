@@ -1,0 +1,204 @@
+#home {
+    background: linear-gradient(
+        to right,
+        #6f5de5,
+        #7497f3,
+        #62d2e8
+     
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center items horizontally */
+    padding-top: 30px; /* Add padding to push content from the top */
+}
+
+#home p1 {
+    font-size: 25px;
+    color: rgb(227, 231, 230);
+    margin-top: 20px;
+}
+#home .paragraph{
+   margin-top:90px;
+    
+}
+#home img{
+    position: absolute;
+    top: 0%;
+    margin-left: 70%; 
+    width: 50%;
+    max-width:200px;
+    height: 180px;
+}
+#privacy {
+    background: linear-gradient(
+        to right,
+        #ffd457,
+        #ffb854,
+        #ff924d
+     
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center items horizontally */
+    padding-top: 30px; /* Add padding to push content from the top */
+}
+#demand {
+    background: linear-gradient(
+        to right,
+        #ffd457,
+        #ffb854,
+        #ff924d
+     
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center items horizontally */
+    padding-top: 30px; /* Add padding to push content from the top */
+}
+#demand h5 {
+    margin-top:40px;
+    padding:50px;
+    font-weight: bold;
+    padding:10px;
+    font-size:20px;    
+   
+}
+#demand h4 {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#demand p {
+    font-size: 25px;
+    color: rgb(235, 8, 8);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#demand iframe {
+   margin-top:100px;
+}
+
+#Marketing {
+    background: linear-gradient(
+        to right,
+        #9f5be2,
+        #c471a5,
+        #fa8d55
+     
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center items horizontally */
+    padding-top: 30px; /* Add padding to push content from the top */
+}
+#Marketing h5 {
+    margin-top:40px;
+    padding:50px;
+    font-weight: bold;
+    padding:10px;
+    font-size:20px;    
+   
+}
+#Marketing h4 {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#Marketing p {
+    font-size: 25px;
+    color: rgb(235, 8, 8);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#Marketing iframe {
+   margin-top:100px;
+}
+#Business {
+    background: linear-gradient(
+        to right,
+        #55d3e1,
+        #2e96c9,
+        #0b5db3
+     
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center items horizontally */
+    padding-top: 30px; /* Add padding to push content from the top */
+}
+#Business h5 {
+    margin-top:40px;
+    padding:50px;
+    font-weight: bold;
+    padding:10px;
+    font-size:20px;    
+   
+}
+#Business h4 {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bold;
+}
+#Business p1 {
+    color: rgb(249, 248, 248);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#Business p {
+    font-size: 25px;
+    color: rgb(235, 8, 8);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#Business iframe {
+   margin-top:100px;
+}
+@media (max-width: 768px) {
+    #demand h5 {
+        font-weight: bold;
+        font-size:13px;  
+        margin-bottom:40px;  
+        line-height: 1.5;
+       
+    }
+    #home img{
+        position: absolute;
+        margin-top:-1%;
+        margin-left: 25%; 
+        width: 40%;
+        max-width:200px;
+        height: 140px;
+    }
+    #Marketing h5 {
+        font-weight: bold;
+        font-size:14px;  
+        margin-bottom:40px; 
+        line-height: 1.2; 
+       
+    }
+    #Business h5 {
+        font-weight: bold;
+        font-size:14px;  
+        margin-bottom:40px;  
+        line-height: 1.2;
+       
+    }
+}
